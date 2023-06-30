@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  min-height: 100vh;
+  background: url(background.jpg);
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items:  center; /* Vertically center the content */
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  text-align: center;
+}
+
+
+.list {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Additional styles for better presentation */
+.list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list ul li {
+  display: inline;
+  margin-right: 10px; 
+  border: 5px;
+  font-size: medium;
+  
+}
+.list ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid black;
+  
+}
+
+.list ul li a:hover{
+  background-color: white;
+  color: #000;
+}
+
+
+.title {
+  text-align: center; /* Center the title horizontally */
+  margin-top: 20px; /* Add margin at the top of the title */
+}
+
+
+.title{
+text-align: left;
+margin-top: 140px;
+margin-left: 40px;
+}
+
+
+/*TABLE 1*/
+
+.table1 table{
+margin-top: 80px;
+}
+.table1 td{
+   border-collapse: collapse;
+   padding: 95px;
+}
+
+.table1 th{
+  color: black;
+  font-size: 30px;
+}
+
+.table1 td img,
+    .table2 td img 
+      .table3 td img{
+        border: 1px solid black; /* Add a border to the images */
+    }
